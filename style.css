@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(#56ab2f, #a8e063);
+}
+h1{
+    color: white;
+}
+p{
+    font-size: 23px;
+}
+#show_sketch{
+    float: right;
+    margin-left: -120px;
+}
+#score{
+    float: left;
+    font-size: 23px;
+}
+#timer{
+    float: right;
+    font-size: 23px;
+}
+canvas{
+    margin-top: 170px;
+    border: 2px solid black;
+    background-color: white;
+    animation-name: canvas_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas_animation{
+    from{box-shadow : 2px 2px 40px grey;}
+    to{box-shadow : 2px 2px 40px white;}
+}
